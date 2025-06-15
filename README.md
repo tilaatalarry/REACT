@@ -76,16 +76,12 @@ JWT_SECRET=your_secret_key
 
 ## 4. Import the Database
 You can use the backup file:
-
-bash
-Copy code
 mysql -u your_username -p nextjs_db < db/backup.sql
 
 ### Or run your own schema using:
 
-mysql -u your_username -p nextjs_db < db/schema.sql
+mysql -u your_username -p nextjs_db < db/tables.sql
+
 ## 5. Run the development server
-bash
-Copy code
 npm run dev
 Visit http://localhost:3000 in your browser.
