@@ -61,26 +61,24 @@ git clone https://github.com/your-username/my-nextjs-app.git
 cd my-nextjs-app
 ```
 
-## 2. Install dependencies
+### 2. Install dependencies
 npm install
 
-## 3. Create .env.local
-bash
-Copy code
+### 3. Create .env.local
 DB_HOST=localhost
 DB_USER=your_mysql_username
 DB_PASSWORD=your_mysql_password
 DB_NAME=nextjs_db
 JWT_SECRET=your_secret_key
 
-## 4. Import the Database
+### 4. Import the Database
 You can use the backup file:
 mysql -u your_username -p nextjs_db < db/backup.sql
 
-### Or run your own schema using:
+#### Or run your own schema using:
 
 mysql -u your_username -p nextjs_db < db/tables.sql
 
-## 5. Run the development server
+### 5. Run the development server
 npm run dev
 Visit http://localhost:3000 in your browser.
