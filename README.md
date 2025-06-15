@@ -59,10 +59,9 @@ Includes:
 ```bash
 git clone https://github.com/your-username/my-nextjs-app.git
 cd my-nextjs-app
+```
 
 ## 2. Install dependencies
-bash
-Copy code
 npm install
 
 ## 3. Create .env.local
